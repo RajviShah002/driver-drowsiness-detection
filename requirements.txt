@@ -1,4 +1,5 @@
 opencv_python==4.5.1.48
+opencv-python-headless==4.2.0.32
 Flask==1.1.2
 matplotlib==3.2.2
 tensorflow-cpu==2.2.2
