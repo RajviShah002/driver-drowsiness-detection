@@ -124,6 +124,7 @@ def start():
     if request.method == 'POST':
         if request.form.get('Start') == 'Start':
             return Response (drowsinessdetector())
+            return render_template("test1.html")
     else:
         return render_template("test1.html")
 
