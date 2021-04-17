@@ -123,7 +123,7 @@ def start():
     print(request.method)
     if request.method == 'POST':
         if request.form.get('Start') == 'Start':
-            return Response (drowsinessdetector())
+            drowsinessdetector()
             return render_template("test1.html")
     else:
         return render_template("test1.html")
